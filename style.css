@@ -1,0 +1,287 @@
+body {
+    overflow-x: hidden;
+}
+
+.nav {
+    overflow: hidden;
+    width: max-content;
+}
+
+nav ul {
+    display: none;
+}
+
+nav .logo {
+    position: relative;
+    left: 25px;
+    width: 28px;
+    top: -1px;
+}
+
+nav .bag {
+    position: relative;
+    left: 90px;
+    width: 30px;
+    top: 0;
+}
+
+nav .searching {
+    position: relative;
+    right: 115px;
+    width: 30px;
+    top: 0;
+}
+
+.moreinfo p {
+    margin-top: 2px;
+    box-sizing: border-box;
+    padding-top: 2px;
+}
+
+.content {
+    overflow: hidden;
+    width: auto;
+}
+
+.content .iphone12img img {
+    width: 365px;
+}
+
+.content2 .prodesc img {
+    width: 335px;
+}
+
+.content2 .proimg img {
+    width: 345px;
+}
+
+.iphone12-links a {
+    margin-bottom: 10px;
+}
+
+.content2 {
+    overflow: hidden;
+}
+
+.bag-items {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    transition: 0.5s;
+    border-radius: 10px;
+    border: black;
+    top: 45px;
+    left: 0;
+    right: 0;
+}
+
+.bag-items ul {
+    list-style-type: none;
+}
+
+.bag-items ul li a {
+    text-decoration: none;
+}
+
+.bag-items ul li {
+    box-sizing: border-box;
+    padding-left: 20px;
+    display: block;
+    border-top: 1px solid black;
+}
+
+.bag-items p {
+    text-align: center;
+    padding: 25px;
+    width: 80vw;
+}
+
+{
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 45px;
+    top: 0;
+
+    background-color: rgb(49 48 48);
+    position: sticky;
+}
+
+nav .logo {
+    position: relative;
+    left: -500px;
+    width: 20px;
+    top: -1px;
+    cursor: poiter;
+}
+
+nav .searching {
+    position: relative;
+    right: -350px;
+    width: 28px;
+    top: 1px;
+    cursor: pointer;
+}
+
+nav .bag {
+    position: relative;
+    left: 420px;
+    width: 30px;
+    top: 0;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;;
+    left: 260px;
+}
+
+nav ul li {
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    list-style: none;
+    margin-right: 0;
+    margin-left: 75px;
+    font-size: 14px;
+}
+
+nav ul li a{
+     text-decoration: none;
+     color: rgb(197 197 197)
+     transitions: 0.4s;
+}
+
+nav il li a:hover{
+    colr: white;
+}
+
+.moreinfo {
+    width: 100%;
+
+    background-color: beige;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moreinfo p {
+    font-family:"SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0,  0, 0)
+}
+
+.moreinfo p a {
+    text-decoration: none;
+    color: cornflowerblue
+}
+
+.moreinfo p a:hover {
+    border-bottom: 1 px solid cornflowerblue;
+}  
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    padding-bottom: 8px;
+}
+
+.content .iphone12desc {
+    margin-top: 43px;
+    margin-bottom:13px;
+}
+
+.content .iphone12desc img {
+    width: 255px;
+}
+
+.iphone12-links a {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 21px;
+    text-decoration: none;
+    color: cornflowerblue;
+    margin-right: 10px;
+    margin-left: 12px;
+}
+
+.iphone12-links a:hover {
+    border-bottom: 1 px solid #5171e3;
+}
+
+.content .iphone12img {
+    margin-top: 22px;
+}
+
+.content .iphone12img img {
+    width: 764px;
+}
+
+.content2 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.content2 .prodesc {
+    margin-top: 33px;
+    margin-bottom: 13px;
+}
+
+.content2 .prodesc img {
+    width: 370px;
+}
+
+.content2 .proimg {
+    margin-top: 22px;
+    position: relative;
+    left: 37px;
+}
+.content2 .proimg img {
+    width: 800px;
+}
+
+.bag-items {
+    display: none;
+    filter: blur(0px);
+    z-index: 10;
+    width: 200px;
+    position: fixed;
+    top: 50px;
+    right: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    transition: 0.5s;
+    border-radius: 10px;
+    border: 1 px solid #d2d2d7;
+}
+
+.bag-items ul {
+    list-style-type: none;
+}
+
+.bag-items ul li {
+    box-sizing: border-box;
+    padding-left: 28px;
+    width: calc(100-20px);
+}
+
